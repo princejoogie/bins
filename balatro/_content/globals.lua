@@ -266,7 +266,7 @@ function Game:set_globals()
     --||||||||||||||||||||||||||||||
     --        RENDER SCALE
     --||||||||||||||||||||||||||||||
-    self.TILESIZE = 50
+    self.TILESIZE = 60
     self.TILESCALE = 5.65
     self.TILE_W = 21
     self.TILE_H = 11.5
