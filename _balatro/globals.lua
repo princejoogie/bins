@@ -343,7 +343,7 @@ function Game:set_globals()
     self.MIN_CLICK_DIST = 0.9
     self.MIN_HOVER_TIME = 0.1
     self.DEBUG = false
-    self.ANIMATION_FPS = 30 -- 10
+    self.ANIMATION_FPS = 10
     self.VIBRATION = 0
     self.CHALLENGE_WINS = 5
 
