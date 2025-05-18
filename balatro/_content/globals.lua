@@ -266,15 +266,15 @@ function Game:set_globals()
     --||||||||||||||||||||||||||||||
     --        RENDER SCALE
     --||||||||||||||||||||||||||||||
-    self.TILESIZE = 60
-    self.TILESCALE = 5.65
-    self.TILE_W = 21
+    self.TILESIZE = 20
+    self.TILESCALE = 3.65
+    self.TILE_W = 20
     self.TILE_H = 11.5
     self.DRAW_HASH_BUFF = 2
-    self.CARD_W = 2.7*35/41
-    self.CARD_H = 2.7*47/41
+    self.CARD_W = 2.4*35/41
+    self.CARD_H = 2.4*47/41
     self.HIGHLIGHT_H = 0.2*self.CARD_H
-    self.COLLISION_BUFFER = 0.03
+    self.COLLISION_BUFFER = 0.05
 
     self.PITCH_MOD = 1
 
